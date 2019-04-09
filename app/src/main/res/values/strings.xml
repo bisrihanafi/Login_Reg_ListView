@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login_Reg_ListView</string>
+    <string name="gender">Gender :</string>
+    <string name="alamat">Masukan Alamat</string>
+    <string name="nama">Masukan Nama</string>
+    <string name="no">Masukan No. HP</string>
+    <string name="email">Masukian Email</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="tidak_dikenal">Tidak Dikenal</string>
+    <string name="masukan_username">Masukan Username</string>
+    <string name="username">username</string>
+</resources>
