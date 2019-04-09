@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case (R.id.button):
                 //TODO 6 : contoh jika tombol yang diklik merupakan komponen tombol dengan id button maka program akan menjalankan baris kode pada case R.id.button
-                if ((t1.getText().toString().toLowerCase()).equals("Bisri".toLowerCase()) && (t2.getText().toString().toLowerCase()).equals("165410054".toLowerCase())){
+                if ((t1.getText().toString().trim().toLowerCase()).equals("Bisri".toLowerCase()) && (t2.getText().toString().toLowerCase()).equals("165410054".toLowerCase())){
                     //TODO 7 : mengambil nilai dari edit text nama dan passord kemudian menyamakan kedua value tersebut berturut turut dengan nama dan NIM mahasiswa secara HardCode
                     Intent log = new Intent(MainActivity.this, ListActivityMe.class);
                     //TODO 8 : membuat intent untuk menuju aktivity ListActivityMe
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case (R.id.button2):
-                //TODO 10 : cara kerja yang sma untuk case lainya
+                //TODO 10 : cara kerja yang hampir sma untuk case lainya
                 Intent reg = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(reg);
                 break;
